@@ -72,3 +72,7 @@ h2 {
 #Junior-web-developer {
     border-left: 7px solid green;
 }
+
+footer p {
+    text-align: center;
+}
