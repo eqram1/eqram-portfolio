@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .aqua-color {
     color: aqua;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -43,4 +47,28 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-duration {
+    width: 40%;
+    box-shadow: 10px 10px 40px orange;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#Full-stack-web-developer {
+    border-left: 7px solid gold;
+}
+
+#Junior-web-developer {
+    border-left: 7px solid green;
 }
