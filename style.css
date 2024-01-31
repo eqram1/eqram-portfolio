@@ -12,7 +12,7 @@ h2 {
 }
 
 .aqua-color {
-    color: aqua;
+    color: rosybrown;
 }
 
 .flexible-container {
@@ -27,13 +27,13 @@ h2 {
 
 
 .half-width img {
-    width: 80%
+    width: 100%
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(red, yellow);
-    padding: 15px 50px;
+    padding: 2px 50px;
     border-radius: 5px;
     font-weight: 600;
 }
@@ -73,6 +73,15 @@ h2 {
     border-left: 7px solid green;
 }
 
+.overflow {
+    background-color: coral;
+    width: 350px;
+    height: 200px;
+    border: 3px solid blue;
+    overflow: scroll;
+}
+
 footer p {
     text-align: center;
+    color: blueviolet;
 }
